@@ -534,9 +534,10 @@ body {
 	display: flex;
 	justify-content: end;
 	padding-top: 130px;
+	overflow: hidden;
 }
 #getStr-img-div img {
-	/* position: relative; */
+	position: relative;
 	width: 1250px;
 	height: 700px;
 	/* left: -150px; */
@@ -615,8 +616,8 @@ body {
 		margin-top: 130px;
 	}
 	#getStr-img-div img {
-		height: 468px;
-		left: 499px;
+		bottom: 50px;
+		height: 550px;
 	}
 }
 @media screen and (max-width: 500px) {

@@ -229,6 +229,22 @@ body {
 		top: 668px;
 	}
 }
+@media screen and (max-width: 992px) {
+	#header-h1 h1 {
+		font-size: 38px;
+	}
+	#header-btns {
+		position: absolute;
+		top: 500px;
+	}
+	#header-h1 h1 {
+		top: 200px;
+	}
+	#tagline {
+		top: 348px;
+		font-size: 20px;
+	}
+}
 
 @media screen and (max-width: 500px) {
 	#header-h1 h1 {
@@ -460,6 +476,59 @@ body {
 		height: 361px;
 	}
 }
+@media screen and (max-width: 992px) {
+	#about-section {
+		margin-top: 500px;
+	}
+	#about-div {
+		padding-bottom: 50px;
+	}
+	#abt-ctn-h {
+		padding-top: 34px;
+	}
+	#card-1 {
+		width: 315px;
+		height: 157px;
+	}
+	#card-2 {
+		width: 315px;
+		height: 157px;
+	}
+	#card-3 {
+		width: 315px;
+		height: 157px;
+	}
+	#card-1-div {
+		display: flex;
+		justify-content: center;
+	}
+	#card-2-div {
+		display: flex;
+		justify-content: center;
+	}
+	#card-3-div {
+		display: flex;
+		justify-content: center;
+	}
+	#abt-card-h5 {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	#abt-card-p {
+		font-size: 12px;
+		line-height: 15px;
+		width: 249px;
+	}
+	#about-img {
+		display: flex;
+		justify-content: center;
+		margin-top: 35px;
+	}
+	#about-img img {
+		width: 300px;
+		height: 250px;
+	}
+}
 
 @media screen and (max-width: 500px) {
 	#about-section {
@@ -616,9 +685,10 @@ body {
 		margin-top: 130px;
 	}
 	#getStr-img-div img {
-		bottom: 50px;
-		height: 550px;
+		height: 468px;
 	}
+}
+@media screen and (max-width: 992px) {
 }
 @media screen and (max-width: 500px) {
 	#get-str-div {
@@ -642,10 +712,7 @@ body {
 	}
 	#get-str-div {
 		margin-top: 130px;
-	}
-	#getStr-img-div img {
-		height: 468px;
-		left: 499px;
+		display: block;
 	}
 	#plo-div {
 		position: relative;
@@ -862,6 +929,18 @@ body {
 		font-size: 20px;
 	}
 }
+@media screen and (max-width: 992px) {
+	#mobText-div {
+		margin-top: 60px;
+		margin-bottom: 87px;
+	}
+	#app-dl > a img {
+		width: 195px;
+		height: 57px;
+		margin-left: 0;
+		margin-top: 30px;
+	}
+}
 @media screen and (max-width: 500px) {
 	#mobile-app-cont {
 		margin-top: 77px;
@@ -896,6 +975,7 @@ body {
 	padding-left: 200px;
 	padding-top: 203px;
 	background: #172a3b;
+	padding-right: 50px;
 	color: white;
 	padding-bottom: 121px;
 }
